@@ -5,10 +5,10 @@
   "RequestMethod": "POST",
   "RequestURL": "https://api.short.io/links",
   "Headers": {
-    "Authorization": "YOUR_API_KEY"
+    "Authorization": "sk_Bl1QXdoFgGiDxGX0"
   },
   "Body": "JSON",
-  "Data": "{\n  \"domain\": \"YOUR_DOMAIN\",\n  \"originalURL\": \"$input$\"\n}",
+  "Data": "{\n  \"domain\": \"waber.fun\",\n  \"originalURL\": \"$input$\"\n}",
   "URL": "$json:secureShortURL$",
   "ErrorMessage": "$json:error$"
 }
